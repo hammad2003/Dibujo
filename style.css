@@ -14,28 +14,50 @@
   z-index: -3;
 }
 
-.cuerpo {
+.oreja {
+  position: relative;
+  
+  height: 6em;
+  width: em;
+  background-color: black;
+}
+
+.cabeza {
   position: relative;
   top: 15em;
   margin: auto;
   border: thin solid black;
   height: 30em;
   width: 30em;
+  background-color: black;
+}
+
+.ojos {
+  position: relative;
+  border-radius: 6em;
+  top: 12em;
+  height: 6em;
+  width: 6em;
   background-color: white;
 }
 
-.bordeojos {
-  position: relative;
-  border-radius: 6em;
-  top: 10em;
-  height: 10em;
-  width: 10em;
-  background-color: black;
+.izquierda {
+  position: absolute;
+  left:2em;
 }
 
 .derecha {
   position: absolute;
-  right: 0em;
+  right: 2em;
+}
+
+.mandubula {
+  position: relative;
+  right: 1px;
+  height: 8em;
+  width: 30em;
+  bottom: -22em;
+  background-color: #fdddca;
 }
 
 #mogut {
