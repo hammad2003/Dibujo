@@ -14,15 +14,34 @@
   z-index: -3;
 }
 
-.oreja {
-  position: relative;
-  
-  height: 6em;
-  width: em;
-  background-color: black;
+.orejader {
+  position: absolute;
+  right:-1px;
+  top: -70px;
+  width: 0;
+  height: 0;
+  border-left: 55px solid transparent;
+  border-top: 60px solid transparent;
+  border-right: 55px solid black;
+  border-bottom: 50px solid black;
+
+}
+
+.orejaizq {
+  position: absolute;
+  left: -1px;
+  top: -70px;
+  width: 0;
+  height: 0;
+  border-right: 55px solid transparent;
+  border-top: 60px solid transparent;
+  border-left: 55px solid black;
+  border-bottom: 50px solid black;
+
 }
 
 .cabeza {
+  border-radius: 3em;
   position: relative;
   top: 15em;
   margin: auto;
@@ -33,7 +52,7 @@
 }
 
 .ojos {
-  position: relative;
+  position: absolute;
   border-radius: 6em;
   top: 12em;
   height: 6em;
@@ -51,12 +70,26 @@
   right: 2em;
 }
 
+.nariz {
+  position: absolute;
+  left: 12em;
+  bottom: 7.9em;
+  width: 122;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 50px solid #434142;
+
+}
+
 .mandubula {
-  position: relative;
-  right: 1px;
+  border-radius: 3em;
+  position: absolute;
+  right: -1px;
   height: 8em;
   width: 30em;
-  bottom: -22em;
+  bottom: -1px;
   background-color: #fdddca;
 }
 
