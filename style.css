@@ -102,12 +102,12 @@
 }
 
 .pecho{
-  position: absolute;
+  position: relative;
   z-index: -1;
   margin: 0 auto;
   left: 0;
   right: 0;
-  bottom: 58em;
+  bottom: -12em;
   width: 35em;
   height: 50em;
   border-radius: 40%;
