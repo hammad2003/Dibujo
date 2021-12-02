@@ -74,12 +74,20 @@
   position: absolute;
   left: 12em;
   bottom: 7.9em;
-  width: 122;
-  height: 0;
   border-right: 50px solid transparent;
-  border-top: 50px solid transparent;
   border-left: 50px solid transparent;
   border-bottom: 50px solid #434142;
+
+}
+
+.nsombra{
+  position: absolute;
+  z-index: 1;
+  left: 15.1em;
+  bottom: 7.9em;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid white;
+
 
 }
 
@@ -91,6 +99,20 @@
   width: 30em;
   bottom: -1px;
   background-color: #fdddca;
+}
+
+.pecho{
+  position: absolute;
+  z-index: -1;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 58em;
+  width: 35em;
+  height: 50em;
+  border-radius: 40%;
+  background: #626167;
+
 }
 
 #mogut {
