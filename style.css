@@ -165,11 +165,11 @@ to {background-color: white;}
 .manod img{
   position: absolute;
   z-index: 2;
-  width: 10em;
-  height: 10em;
-  transform: rotate(-15deg);
+  width: 12em;
+  height: 12em;
+  transform: rotate(10deg);
   top: 25em;
-  left: 30em;
+  left: 36.4em;
 
 }
 
